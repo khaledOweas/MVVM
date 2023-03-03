@@ -1,7 +1,5 @@
 ﻿
 using MVVMBindings.Delegates;
-using MVVMBindings.ViewModels;
-using System.ComponentModel;
 using System.Windows.Input;
 
 namespace MVVMBindings.ViewModels
@@ -10,27 +8,28 @@ namespace MVVMBindings.ViewModels
     {
 
         private readonly DelegateCommand _changeNameCommand;
-        public ICommand ChangeNameCommand => _changeNameCommand;
+        public new ICommand ChangeNameCommand => _changeNameCommand;
+        string _name;
 
-        public ViewModel()
+        public ViewModel(string name)
         {
-            _changeNameCommand = new DelegateCommand(OnChangeName);
+            _changeNameCommand = new DelegateCommand(OnChangeName, CanChangeName);
+            _name = name;
         }
-
-
-
-
-        private string _firstName; 
+        private string _firstName;
         //public event PropertyChangedEventHandler PropertyChanged;
         public string FirstName { get => _firstName; set => SetProperty(ref _firstName, value); }
         //public void OnPropertyChanged(string propertyName) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
 
-         
-
-
         private void OnChangeName(object commandParameter)
         {
-            FirstName = "Walter";
+            FirstName = _name;
+            _changeNameCommand.InvokeCanExecuteChanged();
+        }
+
+        private bool CanChangeName(object commandParameter)
+        {
+            return FirstName != _name;
         }
     }
 }

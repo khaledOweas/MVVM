@@ -12,14 +12,14 @@ namespace MVVMBindings
         {
 
 
-            var viewModel = new ViewModel();
+            var viewModel = new ViewModel("Khaled Oweas");
             viewModel.FirstName = " Khaled ";
             DataContext = viewModel;
 
             InitializeComponent();
 
             viewModel.FirstName = " Changed Name ";
-            
+
             //viewModel.OnPropertyChanged(nameof(ViewModel.FirstName));
 
         }
