@@ -19,7 +19,8 @@ namespace MVVMBindings
             InitializeComponent();
 
             viewModel.FirstName = " Changed Name ";
-            viewModel.OnPropertyChanged(nameof(ViewModel.FirstName));
+            
+            //viewModel.OnPropertyChanged(nameof(ViewModel.FirstName));
 
         }
     }
