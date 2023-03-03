@@ -1,0 +1,16 @@
+G:\MVVMBindings\MVVM\MVVMBindings\bin\Debug\MVVMBindings.exe.config
+G:\MVVMBindings\MVVM\MVVMBindings\bin\Debug\MVVMBindings.exe
+G:\MVVMBindings\MVVM\MVVMBindings\bin\Debug\MVVMBindings.pdb
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.csproj.AssemblyReference.cache
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.csproj.SuggestedBindingRedirects.cache
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MainWindow.g.cs
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\App.g.cs
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings_MarkupCompile.cache
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings_MarkupCompile.lref
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MainWindow.baml
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.g.resources
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.Properties.Resources.resources
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.csproj.GenerateResource.cache
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.csproj.CoreCompileInputs.cache
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.exe
+G:\MVVMBindings\MVVM\MVVMBindings\obj\Debug\MVVMBindings.pdb
